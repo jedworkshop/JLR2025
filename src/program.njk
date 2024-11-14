@@ -1,0 +1,40 @@
+---
+title: "JLR2025 プログラム"
+layout: base.njk
+cssfile: program.css
+jsfile: collapsible.js
+description: "言語処理学会第31回年次大会 併設ワークショップ JLR2025 - プログラム"
+index: false
+---
+
+<h1>JLR2025 プログラム</h1>
+
+
+<p>2025年3月14日(金)<br/>出島メッセ長崎＋オンライン中継のハイブリッド開催</p>
+
+<div class="twitter_info">
+<div class="accoutn">公式アカウント<a href="https://twitter.com/jedws" target="_blank" rel="noreferrer">@jedws</a></div>
+</div>
+
+{#% include "timetable.njk" %#}
+
+<div class="program_legend">
+  <div>
+    <div class="icons">🎤 一般発表 &nbsp; ⚡ ライトニングトーク &nbsp; 💻 オンライン発表</div>
+    <div class="caveat">(発表時間は当日の進行状況により前後することがあります)</div>
+  </div>
+  <div>
+    <div class="btn_abstract_all" data-target=".abstract" data-action="open">全ての概要を開く</div>
+  </div>
+</div>
+
+{#% for key, session in sessions | sortDataByTime %#}
+
+{#%- if session.has_detail -%#}
+  {#% set session_data = session %#}
+  {#% include "session.njk" %#}
+{#%- endif -%#}
+
+{#% endfor %#}
+
+<p><a href="../">トップに戻る</a><p>
