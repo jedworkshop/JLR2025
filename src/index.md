@@ -137,9 +137,7 @@ index: true
 
 ### 発表申込フォーム
 
-こちらのGoogleフォームに必要事項を記入して送信してください。
-
-[https://forms.gle/ZASenwXMY7DYDisN7](https://forms.gle/ZASenwXMY7DYDisN7)
+[こちらのGoogleフォーム](https://docs.google.com/forms/d/e/1FAIpQLSdg2riS-JyaA3yfWoVxPcC2snTVg5iZxplOAI6o96qHkaVVfQ/viewform)に必要事項を記入して送信してください。
 
 ※発表受付時に確認メールは送信されません。後日、登録いただいたメールアドレス宛に案内メールを送信いたします。
 
