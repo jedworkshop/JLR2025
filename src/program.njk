@@ -28,13 +28,13 @@ index: false
   </div>
 </div>
 
-{#% for key, session in sessions | sortDataByTime %#}
+{% for key, session in sessions | sortDataByTime %}
 
-{#%- if session.has_detail -%#}
-  {#% set session_data = session %#}
-  {#% include "session.njk" %#}
-{#%- endif -%#}
+{%- if session.has_detail -%}
+  {% set session_data = session %}
+  {% include "session.njk" %}
+{%- endif -%}
 
-{#% endfor %#}
+{% endfor %}
 
 <p><a href="../">トップに戻る</a><p>

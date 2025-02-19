@@ -46,17 +46,17 @@
 
   <div class="flex-row">
     <div class="program_time flex-item">9:15-10:20</div>
-    <div class="flex-item"><a href="#午前＜１＞ 一般発表">午前＜１＞ 一般発表 [一般発表3件]</a></div>
+    <div class="flex-item"><a href="#午前＜１＞">午前＜１＞ : 一般発表 3件</a></div>
   </div>
 
   <div class="flex-row">
     <div class="program_time flex-item">10:30-11:30</div>
-    <div class="flex-item"><a href="#午前＜２＞ 招待講演">午前＜２＞ 招待講演 [招待講演・一般発表0件]</a></div>
+    <div class="flex-item"><a href="#午前＜２＞">午前＜２＞ : 招待講演</a></div>
   </div>
 
   <div class="flex-row">
     <div class="program_time flex-item">11:30-12:05</div>
-    <div class="flex-item"><a href="#午前＜３＞ 一般発表">午前＜３＞ 一般発表 [一般発表1件]</a></div>
+    <div class="flex-item"><a href="#午前＜３＞">午前＜３＞ : 一般発表 1件</a></div>
   </div>
 
   <div class="flex-row">
@@ -66,12 +66,12 @@
 
   <div class="flex-row">
     <div class="program_time flex-item">13:20-14:35</div>
-    <div class="flex-item"><a href="#午後＜１＞ 一般発表">午後＜１＞ 一般発表 [一般発表3件]</a></div>
+    <div class="flex-item"><a href="#午後＜１＞">午後＜１＞ : 一般発表 3件</a></div>
   </div>
 
   <div class="flex-row">
     <div class="program_time flex-item">14:45-15:20 (仮)</div>
-    <div class="flex-item"><a href="#午後＜２＞ ライトニングトーク">午後＜２＞ ライトニングトーク [一般発表0件・LT5件]</a></div>
+    <div class="flex-item"><a href="#午後＜２＞">午後＜２＞ : LT 5件</a></div>
   </div>
 
   <div class="flex-row">
@@ -95,10 +95,293 @@
 </div>
 
 
+  <div class="session" id="午前＜１＞">
+    <h2>午前＜１＞
+    <a class="header-anchor" href="#午前＜１＞">
+        <span class="heading-anchor" aria-hidden="true">¶</span>
+    </a>
+    </br><small>9:15-10:20</small>&nbsp; <small>座長: </small></h2><div class="talk_list"><div class="talk normal">
+                    <div class="icon normal"></div>
+                    <div class="info">
+                        <div class="time">9:15-9:40</div>
+                        <div class="title">日本語マルチターンデータセットの作成と効果検証</div>
+                        <div class="presenter">佐藤 奈穂子 (リコー), 伊藤 真也 (リコー), 栗川 朋子 (リコー商会)</div>
+                    </div>
+                    
+                        <div class="btn_abstract" data-target=".abstract.talk_a-1">概要</div>
+                    
+
+                    <div class="btn_material disabled">資料</div>
+
+                </div>
+                
+                    <div class="abstract talk_a-1">
+                        大規模言語モデル（Large Language Models、以下LLM）が実運用され始め、専門領域特化LLMやプライベートLLMが増加、さらに今年はAIエージェント元年とも言われている。
+営業支援やカスタマーサポート等で活用が期待されるAIエージェントにおいては、ユーザとの対話を通して必要情報の取得・提供を行うため、文脈を維持した自然な対話が求められる。
+そこで実際の運用シーンを想定したラリー形式の対話を訓練する日本語のマルチターンデータを開発した。特定の業務シナリオにおける日本の現行ビジネスマナーに則った4ターン前後の対話データであり、各々の対話セットに分野と業種、各発話には発話素性を示すタグを付与している。また、このデータによるチューニング前後の生成対話を比較評価し、効果を検証した。
+本報告ではマルチターンデータのデザイン効果検証結果について紹介する。
+                    </div>
+                <div class="talk normal">
+                    <div class="icon normal"></div>
+                    <div class="info">
+                        <div class="time">9:40-10:00</div>
+                        <div class="title">FinePersonas を用いた日本語指示データの合成</div>
+                        <div class="presenter">太田 晋 (東京工科大)</div>
+                    </div>
+                    
+                        <div class="btn_abstract" data-target=".abstract.talk_a-2">概要</div>
+                    
+
+                    <div class="btn_material disabled">資料</div>
+
+                </div>
+                
+                    <div class="abstract talk_a-2">
+                        近年、チャットボット等の普及により、日本語言語モデルの学習のための高品質かつ多様な指示データセットの構築が求められている。一方、合成データを用いた学習がモデル性能の向上に寄与することが報告されているが、データ量の拡大は比較的容易である反面、多様性の確保には依然として課題が残されている。
+本研究の目的は、職業・興味・性格・経験・知識などの属性情報(＝ペルソナ)を活用し、多様な日本語指示データを合成することである。具体的には、ペルソナを利用して大規模な合成データを生成する手法Persona-Hubに着目し、2100万件の英語ペルソナデータセットFinePersonasを用いて、英語ペルソナから多様な日本語指示データが合成可能かどうかを検証する。さらに、合成された指示データの品質と多様性を評価するとともに、日本語テキストからペルソナを抽出する方法も検討し、従来の合成手法の多様性確保の課題に対する解決策を提示することを目指す。
+                    </div>
+                <div class="talk normal">
+                    <div class="icon normal"></div>
+                    <div class="info">
+                        <div class="time">10:00-10:20</div>
+                        <div class="title">高品質な合成データに基づくドメイン特化LLM開発フレームワーク</div>
+                        <div class="presenter">中村 友亮 (早大), 堀尾 海斗, 飯塚 康太 (フィックスターズ), 小田 桐海翔 (フィックスターズ), 吉藤 尚生 (フィックスターズ), 河原 大輔 (早大)</div>
+                    </div>
+                    
+                        <div class="btn_abstract" data-target=".abstract.talk_a-3">概要</div>
+                    
+
+                    <div class="btn_material disabled">資料</div>
+
+                </div>
+                
+                    <div class="abstract talk_a-3">
+                        本研究では、特定ドメインのテキストが存在するときに、そのドメインに特化したLLMを開発するためのフレームワークを構築する。本フレームワークは、まず、既存のLLMによって特定ドメインのテキストから質問応答(QA)データセットを合成、さらにフィルタリングする。フィルタリングは、少量のアノテーションに基づくQA評価器を構築して行う。次に、得られたQAデータセットを用いてLLMに指示チューニングを適用し、ドメイン特化LLMを構築する。3つのドメインにおける検証実験を行ったところ、特に厳しいフィルタリングを適用することによって得られる高品質なQAデータセットを用いた場合に精度向上が見られ、提案フレームワークの有効性を確認した。
+                    </div>
+                </div></div>
 
 
-  
-  
+
+  <div class="session" id="午前＜２＞">
+    <h2>午前＜２＞
+    <a class="header-anchor" href="#午前＜２＞">
+        <span class="heading-anchor" aria-hidden="true">¶</span>
+    </a>
+    </br><small>10:30-11:30</small>&nbsp; <small>座長: </small></h2><div class="talk_list">
+<div class="invite"><h3 id="招待講演">
+    招待講演 🎙</br>日本語の作文および対話性能向上のための合成データ生成と大規模言語モデル「Tanuki」の構築
+</br><small>10:30-11:30</small>
+<a class="header-anchor" href="#招待講演"><span class="heading-anchor" aria-hidden="true">¶</span></a>
+</h3><div id="keynote">
+
+<div id="keynote_speaker">講演者: 畠山 歓 先生<small>東京科学大学 物質理工学院 助教</small></div>
+
+<div class="keynote_headning">概要</div>
+<p>GPT-4を始めとする大規模言語モデル(LLM)は社会的に大きなインパクトを与えた｡LLMは産業や社会のインフラを支える基盤技術に成長する可能性があり､その構築手法に関する基礎的な知見を蓄積する取り組みには大きな意義がある｡本発表では､優れた日本語の作文および対話性能を有する LLM をフルスクラッチで開発するための合成データ生成やモデル学習の取り組みについて紹介する｡既存の LLM を用いて数百Bトークンに及ぶ合成テキストを生成し、その出力を学習させたモデル「Tanuki」を構築した｡当日は学習データの詳細やモデル構築時の試行錯誤についても言及する｡</p>
+
+<div class="keynote_headning">講演資料</div>
+
+<p>（準備中）</p>
+
+<div class="keynote_headning">略歴</div>
+<p>2018年3月 早稲田大学 博士(工学) 高分子合成と電気化学に関する研究
+2018年4月 早稲田大学, 応用化学科, 講師(任期付)
+2023年4月 東京工業大学(東京科学大学), 物質理工学院, 助教
+
+2022年 高分子学会 高分子研究奨励賞</p>
+
+</div>
+
+</div>
+
+</div></div>
+
+
+
+  <div class="session" id="午前＜３＞">
+    <h2>午前＜３＞
+    <a class="header-anchor" href="#午前＜３＞">
+        <span class="heading-anchor" aria-hidden="true">¶</span>
+    </a>
+    </br><small>11:30-12:05</small>&nbsp; <small>座長: </small></h2><div class="talk_list"><div class="talk normal">
+                    <div class="icon normal"></div>
+                    <div class="info">
+                        <div class="time">11:30-12:05</div>
+                        <div class="title">日本語ModernBERTの構築</div>
+                        <div class="presenter">塚越 駿 (SB Intuitions), 李 聖哲 (SB Intuitions), 福地 成彦 (SB Intuitions), 柴田 知秀 (SB Intuitions)</div>
+                    </div>
+                    
+                        <div class="btn_abstract" data-target=".abstract.talk_c-1">概要</div>
+                    
+
+                    <div class="btn_material disabled">資料</div>
+
+                </div>
+                
+                    <div class="abstract talk_c-1">
+                        大規模言語モデルの時代においても、BERTは自然言語処理における主要なコンポーネントとして重要な役割を担い続けている。しかし、BERTは多岐に渡る需要が存在するにも関わらず、(1) 多くの既存BERTは最大系列長が512であり、それより長い系列に対応できない (2) LLM開発によって得られたアーキテクチャの改善などの工夫が取り入れられていない、という問題があった。
+そこで我々は、2024年12月に発表され、英語BERTとして上記の問題に対処したModernBERTに基づき、日英合わせて4T tokenに及ぶ訓練を行うことで日本語ModernBERTを構築した。本発表ではその開発過程と得られた知見、評価結果について報告する。10以上のデータセットを用いた網羅的な評価の結果、我々のモデルは既存の日本語BERTと比較して最高性能を達成した。
+                    </div>
+                </div></div>
+
+
+
+  <div class="session" id="午後＜１＞">
+    <h2>午後＜１＞
+    <a class="header-anchor" href="#午後＜１＞">
+        <span class="heading-anchor" aria-hidden="true">¶</span>
+    </a>
+    </br><small>13:20-14:35</small>&nbsp; <small>座長: </small></h2><div class="talk_list"><div class="talk normal">
+                    <div class="icon normal"></div>
+                    <div class="info">
+                        <div class="time">13:20-13:40</div>
+                        <div class="title">「〇〇で歌ってみた」替え歌を用いた音韻類似単語検索ベンチマークの構築</div>
+                        <div class="presenter">島谷 二郎 (個人)  💻 </div>
+                    </div>
+                    
+                        <div class="btn_abstract" data-target=".abstract.talk_d-1">概要</div>
+                    
+
+                    <div class="btn_material disabled">資料</div>
+
+                </div>
+                
+                    <div class="abstract talk_d-1">
+                        音韻が類似した単語を検索する技術は、空耳やダジャレなどの言語ユーモアの自動生成において重要であるが、その精度を評価するベンチマークが不足している。既存のダジャレデータセットでは、文脈など音韻以外の要素が正解単語の選択に影響するため、音韻類似度を計算する手法間の細かな違いを評価しにくい。本研究では、元歌詞の音韻を特定ジャンルの単語だけで再現する替え歌（通称「〇〇で歌ってみた」）に着目し、実際の作品から収集した単語ペアと候補単語リストを用いた検索ベンチマークを構築する。「〇〇で歌ってみた」の歌詞は、意味的なつながりの少ない名詞の羅列であるため、文脈の影響を抑えた音韻類似度の評価が可能であり、また、替え歌に使用できる単語が限られることで検索タスクとしての定式化が容易になることが期待される。本発表では、ベンチマークの構築と活用について、予備的な検証結果を報告する。
+                    </div>
+                <div class="talk normal">
+                    <div class="icon normal"></div>
+                    <div class="info">
+                        <div class="time">13:40-14:05</div>
+                        <div class="title">RAGEvalに基づく日本語の実践的RAG評価データセットの構築と検証</div>
+                        <div class="presenter">白邦 裕千 (BIPROGY), 石井 愛 (BIPROGY)</div>
+                    </div>
+                    
+                        <div class="btn_abstract" data-target=".abstract.talk_d-2">概要</div>
+                    
+
+                    <div class="btn_material disabled">資料</div>
+
+                </div>
+                
+                    <div class="abstract talk_d-2">
+                        大規模言語モデル(LLM)と外部検索を組み合わせたRetrieval-Augmented Generation (RAG)は、既知・未知の知識を統合して柔軟に応答する手法として注目を集めている。しかし、ベンチマークデータセットの多くは英語の一般知識ドメインに限定されており、日本語や実務ドメインに適用する際には課題が残る。本研究では、RAGEvalのフレームワークを拡張し、実務シナリオに特化した日本語の合成データセットを構築した。具体的には、(1) 病院の入院記録や企業統合報告書を模した仮想ドキュメント群をLLMで生成し、(2) 複数文書をまたいだマルチホップQAや要約、統計的・時系列的質問を含む多様な質問・回答対を作成している。また、本データセットを用いて既存のRAGモデルで評価検証した結果から課題と成果を合わせて報告する。
+                    </div>
+                <div class="talk normal">
+                    <div class="icon normal"></div>
+                    <div class="info">
+                        <div class="time">14:05-14:35</div>
+                        <div class="title">実在しないエンティティや出来事に関する合成文書を用いたRAGベンチマークの構築</div>
+                        <div class="presenter">李 聖哲 (SB Intuitions/早大), 大萩 雅也 (SB Intuitions), 塚越 駿 (SB Intuitions), 福地 成彦 (SB Intuitions), 柴田 知秀 (SB Intuitions), 河原 大輔 (早大)</div>
+                    </div>
+                    
+                        <div class="btn_abstract" data-target=".abstract.talk_d-3">概要</div>
+                    
+
+                    <div class="btn_material disabled">資料</div>
+
+                </div>
+                
+                    <div class="abstract talk_d-3">
+                        検索拡張生成(Retrieval-Augmented Generation, RAG)とは，外部文書集合から検索により取得した関連文書に基づき大規模言語モデル(LLM)に回答を生成させる手法である．
+既存のRAG評価ベンチマークでは，Wikipediaや新聞記事などの公開データを外部文書集合として使用する事例が多く見られるが，これらはLLMの事前学習コーパスに既に含まれている可能性が高く，関連文書に基づく回答生成能力を正確に評価できない可能性がある．
+本研究では，実在しないエンティティや出来事に関する文書をLLMに合成させ，その合成文書集合を検索対象としたRAGベンチマークを構築する．
+このような合成文書はLLMの学習データに含まれていないため，関連文書に基づく回答生成能力をより正確に評価できる．
+ベンチマークは合成文書に加えて質問と正解から構成し，これらはLLMと人手を併用することにより作成する．
+構築したベンチマークで既存のLLMのRAG性能評価を行い，分析を行った．
+                    </div>
+                </div></div>
+
+
+
+  <div class="session" id="午後＜２＞">
+    <h2>午後＜２＞
+    <a class="header-anchor" href="#午後＜２＞">
+        <span class="heading-anchor" aria-hidden="true">¶</span>
+    </a>
+    </br><small>14:45-15:20 (仮)</small>&nbsp; <small>座長: </small></h2><div class="talk_list"><div class="talk lt">
+                    <div class="icon lt"></div>
+                    <div class="info">
+                        <div class="time"></div>
+                        <div class="title">非言語資源としての『日本語日常会話コーパス』の活用</div>
+                        <div class="presenter">森 大河 (千葉大), 伝 康晴 (千葉大)</div>
+                    </div>
+                    
+                        <div class="btn_abstract" data-target=".abstract.talk_e-1">概要</div>
+                    
+
+                    <div class="btn_material disabled">資料</div>
+
+                </div>
+                
+                    <div class="abstract talk_e-1">
+                        近年、大規模言語モデルの発展により言語資源の整備が進んでいるが、ジェスチャーなどの非言語情報の資源の重要性はまだ十分に認識されていない。しかし、言語理解と非言語理解は不可分であり、非言語情報の意味や頻度は言語や時代によって変化する。したがって、日本語における非言語資源の充実は言語資源と同様に重要である。本発表では、映像付きで公開されている『日本語日常会話コーパス』に非言語情報の注釈を付与する我々の取り組みを報告する。
+                    </div>
+                <div class="talk lt">
+                    <div class="icon lt"></div>
+                    <div class="info">
+                        <div class="time"></div>
+                        <div class="title">複数の作業工程を経た翻訳コンテンツの学習における課題</div>
+                        <div class="presenter">美野 秀弥 (NHK), 河合 吉彦 (NHK), 山田 一郎 (NHK)</div>
+                    </div>
+                    
+                        <div class="btn_abstract" data-target=".abstract.talk_e-2">概要</div>
+                    
+
+                    <div class="btn_material disabled">資料</div>
+
+                </div>
+                
+                    <div class="abstract talk_e-2">
+                        機械翻訳の学習は通常、原言語と目的言語の対データのみを用いて行われる。しかし、実際の翻訳作業では、複数の作業者が異なる視点で作業に関与しており、多様な中間生成物が生じることが一般的である。本LTでは、「やさしい日本語ニュース翻訳器」の構築に焦点を当て、やさしい日本語ニュースの翻訳タスクにおける課題を掘り下げるとともに、この課題解決に向けた学習データ構築の取り組みを紹介する。
+                    </div>
+                <div class="talk lt">
+                    <div class="icon lt"></div>
+                    <div class="info">
+                        <div class="time"></div>
+                        <div class="title">ストレス予測のためのマルチモーダルデータセット</div>
+                        <div class="presenter">高鍋 俊樹 (徳島大)</div>
+                    </div>
+                    
+                        <div class="btn_abstract" data-target=".abstract.talk_e-3">概要</div>
+                    
+
+                    <div class="btn_material disabled">資料</div>
+
+                </div>
+                
+                    <div class="abstract talk_e-3">
+                        我々は、ストレス予測のためのマルチモーダルデータセットを構築した。本データセットは、テキスト、音声、匿名化した動画を収録しており、カウンセラーと産業医による客観ストレスラベル、アンケートによるストレス自己評価、ラッセルの円環モデルに基づく独自の客観感情ラベルが付与されている。本発表では、マルチモーダル感情/ストレス分析の実施結果の概要を示す。ストレス分析においては、ラベル分布の偏りが課題である。
+                    </div>
+                <div class="talk lt">
+                    <div class="icon lt"></div>
+                    <div class="info">
+                        <div class="time"></div>
+                        <div class="title">(発表募集中・2/26まで)</div>
+                        <div class="presenter"></div>
+                    </div>
+                    
+                        <div class="btn_abstract disabled">概要</div>
+                    
+
+                    <div class="btn_material disabled">資料</div>
+
+                </div>
+                <div class="talk lt">
+                    <div class="icon lt"></div>
+                    <div class="info">
+                        <div class="time"></div>
+                        <div class="title">ディスカッション</div>
+                        <div class="presenter"></div>
+                    </div>
+                    
+                        <div class="btn_abstract disabled">概要</div>
+                    
+
+                    <div class="btn_material disabled">資料</div>
+
+                </div>
+                </div></div>
 
 
 
