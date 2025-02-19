@@ -15,7 +15,7 @@ Source of the "NLP2025 Workshop on Japanese Language Resources" website.
   - => Static files created under `docs/`
 - Publish  
   - Push to the `main` branch of this repository
-  - => Files under `docs/` served as https://jedworkshop.github.io/JLR202 by GitHub Pages
+  - => Files under `docs/` served as https://jedworkshop.github.io/JLR2025 by GitHub Pages
 
 ## GitHub Actions
 
