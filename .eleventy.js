@@ -41,7 +41,7 @@ module.exports = function(eleventyConfig) {
         return ":" 
         + ((count["invite"] > 0) ? ` 招待講演` : "") 
         + ((count["normal"] > 0) ? ` 一般発表 ${count["normal"]}件` : "")
-        + ((count["lt"] > 0) ? ` LT ${count["lt"]}件` : "");
+        + ((count["lt"] > 0) ? ` ライトニングトーク` : "");
     });
     eleventyConfig.addNunjucksShortcode("pdf", function (talk, index=false) {
         const dataFile = path.join("src/materials", `${talk.id}.pdf`);
