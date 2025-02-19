@@ -44,13 +44,13 @@ index: true
 本ワークショップでは、学習データや評価ベンチマーク、マルチモーダルデータセットなどの日本語言語資源の構築方法そのものに加えて、LLMなどのモデル構築方法や利用性を高めるためのライセンス設定など、言語資源の普及および応用を容易にするための研究について集中的に議論する。
 これによって、日本語言語資源の構築、公開の流れを加速し、日本語自然言語処理のさらなる発展につなげていきたい。
 
-{#% for key, session in sessions %#}
-{#% for talk in session.talks %#}
-  {#% if talk.type == "invite" %#}
-  {#% include "invite.njk" %#}
-  {#% endif %#}
-{#% endfor %#}
-{#% endfor %#}
+{% for key, session in sessions %}
+{% for talk in session.talks %}
+  {% if talk.type == "invite" %}
+  {% include "invite.njk" %}
+  {% endif %}
+{% endfor %}
+{% endfor %}
 
 ## タイムテーブル
 
