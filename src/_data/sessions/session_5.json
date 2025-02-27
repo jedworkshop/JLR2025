@@ -41,7 +41,7 @@
       },
       {
         "id": "e-5",
-        "type": "lt",
+        "type": "panel",
         "time": "",
         "title": "ディスカッション (5分)",
         "presenter": "",
@@ -81,12 +81,13 @@
         "time": "",
         "title": "JMMLUの物理・化学・生物データセットの学習指導要領に基づく難度付け",
         "presenter": "江原 遥 (東京学芸大)",
+        "online": true,
         "material": null,
         "abstract": "大規模言語モデルの評価用の多肢選択式データセットとしてMassive Multitask Language Understanding [MMLU, HendrycksらICLR21]が有名である。MMLUの一部を日本語に翻訳したデータセットとして日本語MMLU(JMMLU)が提案されている[尹ら言語処理学会24]。しかし、もとになるMMLUの設問は英語圏のデータセットであるため、高校レベルとされていても必ずしも日本の学習指導要領上高校レベルとは限らなかった。本研究では、JMMLUの高校レベルの物理・化学・生物のデータセットについて、日本の学習指導要領に沿って4段階に難易度を付けたデータを作成したので報告する。"
       },
       {
         "id": "e-10",
-        "type": "lt",
+        "type": "panel",
         "time": "",
         "title": "ディスカッション (5分)",
         "presenter": "",
