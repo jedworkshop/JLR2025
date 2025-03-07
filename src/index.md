@@ -66,8 +66,8 @@ index: true
 - <span class="expired">2025/02/19 (水)　　　　　　JLR2025 仮プログラム公開</span>
 - <span class="expired">2025/02/26 (水)　　　　　　JLR2025 ライトニングトーク申込締切</span>
 - <span class="expired">2025/02/27 (木)　　　　　　JLR2025 プログラム公開</span>
-- 2025/03/03 (月)　　　　　　NLP2025 直前参加登録受付開始
-- 2025/03/07 (金)　正午　　　NLP2025 直前参加登録受付締切
+- <span class="expired">2025/03/03 (月)　　　　　　NLP2025 直前参加登録受付開始</span>
+- <span class="expired">2025/03/07 (金)　正午　　　NLP2025 直前参加登録受付締切</span>
 - 2025/03/09 (日)　　　　　　JLR2025 発表資料提出期限
 - 2025/03/14 (金)　　　　　　JLR2025 ワークショップ当日
 
